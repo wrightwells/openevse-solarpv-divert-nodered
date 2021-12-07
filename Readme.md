@@ -1,3 +1,20 @@
+WRIGHTWELLS
+A forked version of this briallint Node Red flow from Glyn.
+
+I have made some changes including adding Consumption Limiting for both Eco and Normal mode
+my solar setup is with Enphase so I have a seperate flow that captures the SolarGeneration, Consumption and Grid as well as a House Battery
+and these are the MQTT topics that I have used for this flow. The house battery take priority over the EVSE in Eco mode
+
+At time of upload I am waiting for my OpenEVSE so this has only been tested with an ESP32 as the OPENEVSE gateway and test data.
+
+My main purpose was to learn Node-Red and I thank Glyn for the education.
+Oh and its a fork in Github so that I have a backup.
+
+I appricate that this functionality is in the v4.1 of the gateway but I do not belive that Consumption Limiting is an option. 
+
+=====================================
+
+
 NodeRED flow for OpenEVSE EV charging station solar PV diversion
 
 **UPDATE: This functionality in a more user friendly form has now been included in the [OpenEVSE ESP WiFi V2 Firmware](github.com/OpenEVSE/ESP8266_WiFi_v2.x)**
