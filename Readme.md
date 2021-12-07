@@ -1,4 +1,3 @@
-WRIGHTWELLS
 A forked version of this brilliant Node Red flow from Glyn.
 
 I have made some changes including adding Consumption Limiting for both Eco and Normal mode
@@ -10,7 +9,8 @@ At time of upload I am waiting for my OpenEVSE so this has only been tested with
 My main purpose was to learn Node-Red and I thank Glyn for the education.
 Oh and its a fork in Github so that I have a backup.
 
-I apricate that this functionality is in the v4.1 of the gateway but I do not believe that Consumption Limiting is an option. ![image](https://user-images.githubusercontent.com/21678359/145105952-8c53fdb9-c6c6-4b6e-95a5-9f53468f4889.png)
+I apricate that this functionality is in the v4.1 of the gateway but I do not believe that Consumption Limiting is an option. 
+
 
 =====================================
 
